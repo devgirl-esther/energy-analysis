@@ -3,6 +3,16 @@ Overview
 
 Analysed over 303,000 half-hourly electricity generation records to understand how the UK electricity system evolved between 2009 and 2026. The project explores changes in the generation mix, progress towards decarbonisation, and uses machine learning to predict electricity carbon intensity.
 
+Data source: [https://www.neso.energy/data-portal/historic-generation-mix]
+To reproduce the analysis:
+
+1. Download the dataset from the source above.
+2. Save it as:
+
+data/df_fuel_ckan.csv
+
+
+
 Key Questions
 How has the UK generation mix changed since 2009?
 What impact has renewable growth had on carbon intensity?
